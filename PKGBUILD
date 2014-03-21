@@ -10,6 +10,6 @@ depends=('sudo')
 build() {
 
     install -d $pkgdir/usr/bin
-    cp $startdir/chsudo $pkgdir/usr/bin/chsudo
+    cp $startdir/*sudo $pkgdir/usr/bin/
 
 }
